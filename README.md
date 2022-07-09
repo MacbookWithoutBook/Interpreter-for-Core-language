@@ -5,7 +5,7 @@ Please note this is a language like C or Java where whitespaces have no meaning,
 
 Here is the Core language:
 
-<prog> ::= program <decl-seq> begin <stmt-seq> end | program begin <stmt-seq> end<br />
+\<prog\> ::= program \<decl-seq\> begin \<stmt-seq\> end | program begin \<stmt-seq\> end<br />
 <decl-seq> ::= <decl> | <decl><decl-seq> | <func-decl> | <func-decl><decl-seq><br />
 <stmt-seq> ::= <stmt> | <stmt><stmt-seq><br />
 <decl> ::= <decl-int> | <decl-ref><br />
