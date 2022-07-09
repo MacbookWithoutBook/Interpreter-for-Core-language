@@ -16,7 +16,8 @@ Here is the Core language:
 \<formals\> ::= id | id , \<formals\><br />
 \<stmt\> ::= \<assign\> | \<if\> | \<loop\> | \<out\> | \<decl\> | \<func-call\><br />
 \<func-call\> ::= begin id ( \<formals\> ) ;<br />
-\<assign\> ::= id = input ( ) ; | id = \<expr\> ; | id = new class; | id = share id ; \<out\> ::= output ( \<expr\> ) ;<br />
+\<assign\> ::= id = input ( ) ; | id = \<expr\> ; | id = new class; | id = share id ;<br />
+\<out\> ::= output ( \<expr\> ) ;<br />
 \<if\> ::= if \<cond\> then { \<stmt-seq\> } | if \<cond\> then { \<stmt-seq\> } else { \<stmt-seq\> }<br />
 \<loop\> ::= while \<cond\> { \<stmt-seq\> }<br />
 \<cond\> ::= \<cmpr\> | ! ( \<cond\> ) | \<cmpr\> or \<cond\><br />
